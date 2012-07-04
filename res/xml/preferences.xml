@@ -17,17 +17,6 @@
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android">
   <PreferenceScreen
-    android:key="time_sync"
-    android:title="@string/timesync_preference_screen_title"
-    android:summary="@string/timesync_preference_screen_summary"
-    android:persistent="false">
-    <intent
-      android:targetPackage="com.google.android.apps.authenticator2"
-      android:targetClass="com.google.android.apps.authenticator.timesync.SettingsTimeCorrectionActivity">
-    </intent>
-  </PreferenceScreen>
-
-  <PreferenceScreen
     android:key="about"
     android:title="@string/about_preference_title"
     android:persistent="false">
